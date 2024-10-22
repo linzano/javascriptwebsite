@@ -1,0 +1,161 @@
+html, body {
+    overflow-y: scroll;
+}
+
+#personalInfo {
+	display: block;
+	clear: both;
+    position: fixed;
+    top: 36%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 800px;
+	background-color: whitesmoke;
+	padding: 10px;
+    border-style: solid;
+    border-color: black;
+	border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+    font-family: Verdana;
+    margin-top: 0px;
+}
+
+label {
+    display: block;
+    font-family: Lucida Sans;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#survey {
+	display: block;
+	clear: both;
+	margin-top: 5px;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+#q1 {
+    font-family: Lucida Sans;
+    font-weight: bold;
+    font-size: 16px;
+    color: darkorange;
+}
+
+#yesLabel {
+    color: black;
+}
+
+#noLabel {
+    color: black;
+}
+
+#q2 {
+    font-family: Lucida Sans;
+    font-weight: bold;
+    font-size: 16px;
+    color: red;
+}
+#yesLabel2 {
+    color: black;
+}
+
+#noLabel2 {
+    color: black;
+}
+
+#badge {
+    display: block;
+	clear: both;
+    position: fixed;
+    height: 200px;
+    top: 115%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+	border-radius: 5px;
+}
+
+#results {
+	display: block;
+	clear: both;
+    position: fixed;
+    height: 200px;
+    top: 50%;
+    left: 148%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+img {
+    display: block;
+
+}
+
+p {
+    font-family: Lucida Sans;
+}
+
+#hints {
+    color: red;
+    font-family: Lucida Sans;
+    font-size: 12px;
+    font-style: italic;
+    margin-left: 10px;
+}
+
+#goodSpan {
+    color: greenyellow;
+    font-family: Lucida Sans;
+    font-size: 12px;
+    font-style: italic;
+    margin-left: 10px;
+}
+
+#goodSpanLast {
+    color: greenyellow;
+    font-family: Lucida Sans;
+    font-size: 12px;
+    font-style: italic;
+    margin-left: 10px;
+}
+
+
+#goodSpanPhone {
+    color: greenyellow;
+    font-family: Lucida Sans;
+    font-size: 12px;
+    font-style: italic;
+    margin-left: 10px;
+}
+
+#goodSpanEmail {
+    color: greenyellow;
+    font-family: Lucida Sans;
+    font-size: 12px;
+    font-style: italic;
+    margin-left: 10px;
+}
+
+#goodSpanWebsite {
+    color: greenyellow;
+    font-family: Lucida Sans;
+    font-size: 12px;
+    font-style: italic;
+    margin-left: 10px;
+}
+
+#submit {
+    background-color: black; 
+    font-family: Lucida Sans;
+    color: white; 
+    padding: 10px; 
+    border-radius: 4px; 
+    cursor: pointer; 
+}
